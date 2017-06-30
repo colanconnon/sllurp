@@ -1,0 +1,94 @@
+2017-06-30 16:22:36,941 sllurp.llrp: INFO: connecting to 10.0.0.40:5084...
+2017-06-30 16:22:36,949 sllurp.llrp: INFO: will reset reader state on connect
+2017-06-30 16:22:36,949 sllurp.llrp: INFO: will start inventory on connect
+2017-06-30 16:22:36,949 sllurp.llrp: INFO: using antennas: [1]
+2017-06-30 16:22:36,950 sllurp.llrp: INFO: connected to (u'10.0.0.40', 5084) (10.0.0.40:5084)
+2017-06-30 16:22:37,185 sllurp.llrp: INFO: using reader mode: {'C': 0, 'MaxTari': 7140, 'M': 2, 'PIE': 1500, 'StepTari': 0, 'R': 1, 'FLM': 0, 'MinTari': 7140, 'ModeIdentifier': 4, 'BDR': 640000, 'Mod': 2}
+2017-06-30 16:22:37,186 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:22:37,200 sllurp.llrp: INFO: starting inventory
+2017-06-30 16:23:05,308 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:23:05,308 sllurp.llrp: INFO: will disconnect when stopped
+2017-06-30 16:23:05,344 sllurp.verb.inventory: INFO: saw tag(s): [{'AntennaID': (1,),
+  'EPC-96': '000000000000001000425365',
+  'LastSeenTimestampUTC': (1498848462323685,),
+  'PeakRSSI': (-65,),
+  'TagSeenCount': (15,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000022626',
+  'LastSeenTimestampUTC': (1498848452477204,),
+  'PeakRSSI': (-67,),
+  'TagSeenCount': (7,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000227647',
+  'LastSeenTimestampUTC': (1498848463994834,),
+  'PeakRSSI': (-68,),
+  'TagSeenCount': (51,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000343975',
+  'LastSeenTimestampUTC': (1498848452213158,),
+  'PeakRSSI': (-68,),
+  'TagSeenCount': (305,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000304623',
+  'LastSeenTimestampUTC': (1498848452433331,),
+  'PeakRSSI': (-67,),
+  'TagSeenCount': (504,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000113419',
+  'LastSeenTimestampUTC': (1498848463969791,),
+  'PeakRSSI': (-62,),
+  'TagSeenCount': (2215,)}]
+2017-06-30 16:23:05,348 sllurp.llrp: INFO: lost connection: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2017-06-30 16:23:05,348 sllurp.verb.inventory: INFO: total # of tags seen: 3097 (109 tags/second)
+2017-06-30 16:23:05,348 sllurp.llrp: INFO: disconnecting
+2017-06-30 16:28:49,707 sllurp.llrp: INFO: connecting to 10.0.0.40:5084...
+2017-06-30 16:28:49,714 sllurp.llrp: INFO: will reset reader state on connect
+2017-06-30 16:28:49,714 sllurp.llrp: INFO: will start inventory on connect
+2017-06-30 16:28:49,714 sllurp.llrp: INFO: using antennas: [1]
+2017-06-30 16:28:49,715 sllurp.llrp: INFO: connected to (u'10.0.0.40', 5084) (10.0.0.40:5084)
+2017-06-30 16:28:49,953 sllurp.llrp: INFO: using reader mode: {'C': 0, 'MaxTari': 7140, 'M': 2, 'PIE': 1500, 'StepTari': 0, 'R': 1, 'FLM': 0, 'MinTari': 7140, 'ModeIdentifier': 4, 'BDR': 640000, 'Mod': 2}
+2017-06-30 16:28:49,953 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:28:49,967 sllurp.llrp: INFO: starting inventory
+2017-06-30 16:31:17,789 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:31:17,789 sllurp.llrp: INFO: will disconnect when stopped
+2017-06-30 16:31:17,819 sllurp.verb.inventory: INFO: saw tag(s): [{'AntennaID': (1,),
+  'EPC-96': '000000000000001000425365',
+  'LastSeenTimestampUTC': (1498848954510815,),
+  'PeakRSSI': (-61,),
+  'TagSeenCount': (5846,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000227647',
+  'LastSeenTimestampUTC': (1498848947320762,),
+  'PeakRSSI': (-69,),
+  'TagSeenCount': (405,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000113419',
+  'LastSeenTimestampUTC': (1498848956480284,),
+  'PeakRSSI': (-62,),
+  'TagSeenCount': (16701,)}]
+2017-06-30 16:31:17,823 sllurp.llrp: INFO: lost connection: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2017-06-30 16:31:17,824 sllurp.verb.inventory: INFO: total # of tags seen: 22952 (154 tags/second)
+2017-06-30 16:31:17,824 sllurp.llrp: INFO: disconnecting
+2017-06-30 16:31:19,185 sllurp.llrp: INFO: connecting to 10.0.0.40:5084...
+2017-06-30 16:31:19,191 sllurp.llrp: INFO: will reset reader state on connect
+2017-06-30 16:31:19,191 sllurp.llrp: INFO: will start inventory on connect
+2017-06-30 16:31:19,191 sllurp.llrp: INFO: using antennas: [1]
+2017-06-30 16:31:19,192 sllurp.llrp: INFO: connected to (u'10.0.0.40', 5084) (10.0.0.40:5084)
+2017-06-30 16:31:19,449 sllurp.llrp: INFO: using reader mode: {'C': 0, 'MaxTari': 7140, 'M': 2, 'PIE': 1500, 'StepTari': 0, 'R': 1, 'FLM': 0, 'MinTari': 7140, 'ModeIdentifier': 4, 'BDR': 640000, 'Mod': 2}
+2017-06-30 16:31:19,450 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:31:19,463 sllurp.llrp: INFO: starting inventory
+2017-06-30 16:31:46,637 sllurp.llrp: INFO: stopping politely
+2017-06-30 16:31:46,638 sllurp.llrp: INFO: will disconnect when stopped
+2017-06-30 16:31:46,663 sllurp.verb.inventory: INFO: saw tag(s): [{'AntennaID': (1,),
+  'EPC-96': '000000000000001000113419',
+  'LastSeenTimestampUTC': (1498848985040692,),
+  'PeakRSSI': (-64,),
+  'TagSeenCount': (2950,)},
+ {'AntennaID': (1,),
+  'EPC-96': '000000000000001000425365',
+  'LastSeenTimestampUTC': (1498848984833896,),
+  'PeakRSSI': (-62,),
+  'TagSeenCount': (1076,)}]
+2017-06-30 16:31:46,667 sllurp.llrp: INFO: lost connection: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2017-06-30 16:31:46,667 sllurp.verb.inventory: INFO: total # of tags seen: 4026 (146 tags/second)
+2017-06-30 16:31:46,668 sllurp.llrp: INFO: disconnecting

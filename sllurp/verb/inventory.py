@@ -23,6 +23,10 @@ def finish(*args):
     if reactor.running:
         reactor.stop()
 
+def logs(*args):
+    print(*args)
+
+
 
 def shutdown(factory):
     return factory.politeShutdown()
@@ -30,6 +34,7 @@ def shutdown(factory):
 
 def tag_report_cb(llrp_msg):
     """Function to run each time the reader reports seeing tags."""
+    print(llrp_msg)
     global numtags
     tags = llrp_msg.msgdict['RO_ACCESS_REPORT']['TagReportData']
     if len(tags):

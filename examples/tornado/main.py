@@ -136,17 +136,18 @@ if __name__ == '__main__':
                             tx_power=args.tx_power,
                             modulation=args.modulation,
                             tari=args.tari,
+                            start_inventory=True,
                             tag_content_selector={
-                                'EnableROSpecID': True,
-                                'EnableSpecIndex': True,
-                                'EnableInventoryParameterSpecID': True,
+                                'EnableROSpecID': False,
+                                'EnableSpecIndex': False,
+                                'EnableInventoryParameterSpecID': False,
                                 'EnableAntennaID': True,
-                                'EnableChannelIndex': True,
+                                'EnableChannelIndex': False,
                                 'EnablePeakRRSI': True,
-                                'EnableFirstSeenTimestamp': True,
+                                'EnableFirstSeenTimestamp': False,
                                 'EnableLastSeenTimestamp': True,
                                 'EnableTagSeenCount': True,
-                                'EnableAccessSpecID': True,
+                                'EnableAccessSpecID': False
                             })
     fac.addTagReportCallback(tag_seen_callback)
 
